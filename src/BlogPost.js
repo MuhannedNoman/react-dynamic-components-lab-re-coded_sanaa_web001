@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
+<<<<<<< HEAD
 import Comment from './Comment.js';
+=======
+import Comment from './Comment.js'
+>>>>>>> 59d4a5c730142d6af8f847ff89d496e4acea77e4
 
 export default class BlogPost extends Component {
   render() {
@@ -11,6 +15,7 @@ export default class BlogPost extends Component {
 
     return (
       <div id="blog-post" className="wrapper">
+<<<<<<< HEAD
         Just like moons and like suns,
         <br />
         With the certainty of tides,
@@ -21,6 +26,14 @@ export default class BlogPost extends Component {
         <br />
         -Maya Angelou
         <br />
+=======
+        Just like moons and like suns,<br/>
+        With the certainty of tides,<br/>
+        Just like hopes springing high,<br/>
+        Still I'll rise.<br/>
+        -Maya Angelou<br/>
+
+>>>>>>> 59d4a5c730142d6af8f847ff89d496e4acea77e4
         <Comment commentText={comments[0]} />
         <Comment commentText={comments[1]} />
         <Comment commentText={comments[2]} />
